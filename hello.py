@@ -1,5 +1,10 @@
 __author__ = 'piammoradi'
+__name__ = 'main'
 
-print "Hello world!"
-print "What up homie"
-print "Not much"
+def main():
+    print "Hello world!"
+    print "What up homie"
+    print "Not much"
+
+if __name__ == 'main':
+    main()
